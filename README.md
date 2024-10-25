@@ -1,13 +1,10 @@
-Feeds Import Preview
---------------------
-By MegaChriz
+# Feeds Import Preview
 
 This module extends the Feeds module and provides a way of previewing the source
 content before importing.
 
+## How it works
 
-How it works
-------------
 The importer configuration page gets a new section called "Preview". In there,
 there is a form that looks almost exactly like the standalone import form
 provided by Feeds. Put in your source like you would normally do during a real
@@ -18,9 +15,8 @@ the parsed result in a series of tables for the first 50 records. Note that the
 Finally, when you're good with the preview, you can continue to the import form
 and re-input your source to trigger the real import.
 
+## Notes
 
-Notes
------
 * You will only get a preview of the parsed result, not the end result. The
   content to import may still be modified during processing.
 * Sources provided at the preview form will not overwrite the sources provided
@@ -33,3 +29,25 @@ Notes
   setting.
 * You can navigate through the results using the left and right arrow keys on
   your keyboard (given that your browser supports this).
+
+## Installation
+
+Install this module using [the official Backdrop CMS instructions](https://docs.backdropcms.org/documentation/extend-with-modules).
+
+## Issues
+
+Bugs and feature requests should be reported in [the issue queue](https://github.com/backdrop-contrib/feedspreview/issues).
+
+## License
+
+This project is GPL v2 software. See the LICENSE.txt file in this directory for complete text.
+
+## Maintainers
+
+* [Herb v/d Dool](https://github.com/herbdool)
+
+## Credits
+
+Drupal version maintained by:
+
+* <https://www.drupal.org/u/MegaChriz>
