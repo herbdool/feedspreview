@@ -9,6 +9,7 @@ The importer configuration page gets a new section called "Preview". In there,
 there is a form that looks almost exactly like the standalone import form
 provided by Feeds. Put in your source like you would normally do during a real
 import.
+
 Feeds Import Preview will then *fetch* and *parse* your source and then show you
 the parsed result in a series of tables for the first 50 records. Note that the
 *process* step is completely skipped during the preview.
