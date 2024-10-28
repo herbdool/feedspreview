@@ -3,6 +3,25 @@
 This module extends the Feeds module and provides a way of previewing the source
 content before importing.
 
+Ever get frustated by debugging your Feeds importers, because you could not get
+a hang of what's actually in the source? Are you trying to get your config for
+XPath Parser right? Or do you wonder if your configured Feeds Tampers leads to
+the desired result?
+
+Meet the Feeds Import Preview module, a module with which you can get a preview
+of the source before you import the content. As a bonus, it scans your source
+also for unmapped elements. This is especially handy in case of importing CSV
+files, where you can quickly see which columns of your CSV file are not mapped
+yet.
+
+## Preview is of parsed result, not end result
+
+Note that the module does not give a preview of the end result, it shows only
+what the source looks like after parsing. During processing the data will often
+still be modified, for example an image file will be downloaded: at the end
+result you will (hopefully) see the image, but during the preview you will only
+see the URL to the file.
+
 ## How it works
 
 The importer configuration page gets a new section called "Preview". In there,
