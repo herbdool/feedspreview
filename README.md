@@ -13,6 +13,7 @@ import.
 Feeds Import Preview will then *fetch* and *parse* your source and then show you
 the parsed result in a series of tables for the first 50 records. Note that the
 *process* step is completely skipped during the preview.
+
 Finally, when you're good with the preview, you can continue to the import form
 and re-input your source to trigger the real import.
 
